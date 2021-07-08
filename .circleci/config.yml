@@ -1,8 +1,0 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circle/node:10
-    steps:
-      - run: echo 'A first hello'
-      - run: npm -v
